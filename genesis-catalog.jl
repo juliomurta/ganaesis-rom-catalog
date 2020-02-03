@@ -50,7 +50,7 @@ module GenesisOptions
             end
         end
         if !found
-            println("Any game that starts with the letter '$letter' was found.")
+            println("No game that starts with the letter '$letter' was found.")
         end
     end
 
@@ -66,7 +66,7 @@ module GenesisOptions
             end
         end
         if !found
-            println("Any game that contains '$game_name' was found.")
+            println("No game that contains '$game_name' was found.")
         end
     end
 
